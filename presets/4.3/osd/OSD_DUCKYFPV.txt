@@ -1,0 +1,30 @@
+#$ TITLE: Ducky 4.3 OSD Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: Ducky Final
+#$ KEYWORDS: OSD
+#$ AUTHOR: DuckyFPV
+#$ DESCRIPTION: Sets the OSD to DuckyFPV Defaults
+
+set osd_warn_over_cap = ON
+set osd_cap_alarm = 1500
+set osd_vbat_pos = 14721
+set osd_link_quality_pos = 14729
+set osd_flymode_pos = 14423
+set osd_vtx_channel_pos = 2452
+set osd_crosshairs_pos = 14573
+set osd_mah_drawn_pos = 2401
+set osd_craft_name_pos = 2123
+set osd_compass_bar_pos = 42
+set osd_warnings_pos = 14441
+set osd_avg_cell_voltage_pos = 6209
+set osd_battery_usage_pos = 32993
+set osd_flip_arrow_pos = 14510
+set osd_stick_overlay_left_pos = 262
+set osd_stick_overlay_right_pos = 272
+set osd_stat_tim_2 = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_bbox = OFF
+set name = DUCKYFPV
