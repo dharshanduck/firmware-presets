@@ -7,7 +7,7 @@
 #$ AUTHOR: sugarK
 #$ DESCRIPTION: Allows you to disable certain blackbox data fields to save space and CPU resources 
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/110
-#$ INCLUDE: presets/4.3/other/reset_blackbox.txt
+
 
 
 #$ OPTION BEGIN (UNCHECKED): Disable PID data

@@ -9,10 +9,8 @@
 #$ DESCRIPTION: VTX tables for the Rush Tiny Tank, Rush Tank Racing, Rush Tank Ultimate Plus, Rush Tank Ultimate II, and the Rush Tank Solo.
 #$ DESCRIPTION: Select in the options which model your particular rush VTX is. If it is not listed below it may not work because these VTX tables are meant for SA2.1 only. Older Rush VTX's (like the original tank ultimate) use an older SmartAudio protocol such as v1.1. These tables are by default the 37CH version for the US. Select 48CH to unlock more frequencies.
 #$ DISCLAIMER:  Only select one VTX model. All previous VTX settings will be reset. Some frequencies in BAND E have been replaced for the non 48CH version.
-#$ INCLUDE_DISCLAIMER: misc/disclaimer/en/vtxtable.txt
 #$ DISCUSSION:  https://github.com/betaflight/firmware-presets/pull/78
 
-#$ INCLUDE: presets/4.3/vtx/defaults_vtx_tables.txt
 vtxtable bands 5
 vtxtable channels 8
 vtxtable band 1 BAND_A   A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
