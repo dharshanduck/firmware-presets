@@ -138,6 +138,7 @@
       "4.4"
     ],
     "category": [
+      "MODES",
       "OSD",
       "OTHER",
       "RATES",
@@ -151,11 +152,15 @@
       "sugarK"
     ],
     "keywords": [
+      "adjustments",
+      "aux",
       "blackbox",
       "defaults",
       "disable",
       "log",
       "logging",
+      "mode",
+      "modes",
       "OSD",
       "Rates",
       "RC",
@@ -169,6 +174,7 @@
       "Rx",
       "smoothing",
       "sugarK",
+      "switch",
       "tank solo",
       "tank ultimate",
       "tiny tank",
@@ -178,9 +184,66 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.3/modes/defaults.txt",
+      "hash": "5669efa87a632d2b98d79c604da2b18c82d2251c8de00b9b6225b5b6944ae925",
+      "title": "Default 4.3 Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/modes/Ducky_Modes.txt",
+      "hash": "0a581829d132c4acae04e767cfea6f9a31c0a388b1f24176ddf80d317ed23f71",
+      "title": "DuckyFPV Modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "DuckyFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/osd/OSD_DUCKYFPV.txt",
       "hash": "cc19e53207073153befcb10bdd9e7bceae1b3884eaebc97d2c485fc25d513619",
       "title": "Ducky 4.3 OSD Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "OSD"
+      ],
+      "author": "DuckyFPV",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/OSD_DUCKYWHOOP.txt",
+      "hash": "e671be2f83061ed50d45b8f2df24e5eab032436c7a9f42deb7ed92cf2a2c6410",
+      "title": "Ducky 4.3 Tiny Whoop OSD Settings",
       "firmware_version": [
         "4.3"
       ],
@@ -214,7 +277,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/duckyfpv_rates.txt",
-      "hash": "ab90ecd28851e92ed09d9e500d95631c856691d1680985f50b7fc36640f398d1",
+      "hash": "2572e875e5d50d03aec5dfdd38c037ab42541b2f2c1bf2188ff99973d341660e",
       "title": "Ducky FPV Rates",
       "firmware_version": [
         "4.3"
